@@ -1,0 +1,66 @@
+@font-face {
+  font-weight: 400;
+  font-family: JetBrains Mono;
+  src: url("../fonts/terminal_fonts/static/JetBrainsMono-Regular.ttf");
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+
+  background: #7e57c2;
+}
+.container {
+  padding: 20px 30px;
+  color: #fff;
+  background-color: #263238;
+  border-radius: 5px;
+}
+
+.head {
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding: 0;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  margin-right: 5px;
+}
+
+.red {
+  background-color: #ff5f56;
+}
+
+.yellow {
+  background-color: #ffbd2e;
+}
+
+.green {
+  background-color: #27c93f;
+}
+
+pre {
+  margin: 0;
+}
+
+code {
+  font: 18px/1.5 "JetBrains Mono", monospace;
+}
+
+.tag {
+  color: #ff5370;
+}
+
+.atr {
+  color: #ffcb6b;
+}
+
+.value {
+  color: #c3e88d;
+}
